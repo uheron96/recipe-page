@@ -17,8 +17,8 @@ body {
 @media (max-width: 500px) {
   #card {
     background-color: hsl(0, 0%, 100%);
-    width: 90%;
-    padding: 24px;
+    width: 80%;
+    padding: 12px;
     border-radius: 16px;
   }
 }
