@@ -3,12 +3,8 @@ body {
   background-color: hsl(30, 54%, 90%);
   display: grid;
   place-items: center;
-  margin-top: 24px;
-  margin-bottom: 24px;
-
-  width: 100vw;
-  height: 100vh;
-  overflow: auto;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 #card {
