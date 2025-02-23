@@ -1,0 +1,22 @@
+html,
+body {
+  background-color: hsl(30, 54%, 90%);
+  display: grid;
+  place-items: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 100%;
+}
+
+#card {
+  background-color: hsl(0, 0%, 100%);
+  width: 60%;
+  padding: 16px;
+  border-radius: 16px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+}
