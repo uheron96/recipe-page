@@ -17,9 +17,18 @@ body {
 @media (max-width: 500px) {
   #card {
     background-color: hsl(0, 0%, 100%);
-    width: 80%;
-    padding: 12px;
+    width: 90%;
+    padding: 24px;
     border-radius: 16px;
+  }
+
+  html,
+  body {
+    background-color: hsl(30, 54%, 90%);
+    display: grid;
+    place-items: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
   }
 }
 
