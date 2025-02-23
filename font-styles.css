@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "YoungSerif";
+  src: url("/assets/fonts/young-serif/YoungSerif-Regular.ttf") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("/assets/fonts/outfit/Outfit-VariableFont_wght.ttf")
+    format("woff2-variations");
+  src: url("/assets/fonts/outfit/static/Outfit-Regular.ttf") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("/assets/fonts/outfit/Outfit-VariableFont_wght.ttf")
+    format("woff2-variations");
+  src: url("/assets/fonts/outfit/static/Outfit-SemiBold.ttf") format("woff2");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("/assets/fonts/outfit/Outfit-VariableFont_wght.ttf")
+    format("woff2-variations");
+  src: url("/assets/fonts/outfit/static/Outfit-Bold.ttf") format("woff2");
+  font-weight: 700;
+}
+
+h1,
+h2 {
+  font-family: "YoungSerif", sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+
+p,
+ul,
+ol,
+table {
+  font-family: "Outfit";
+  margin: 0;
+  font-size: 1em;
+}
